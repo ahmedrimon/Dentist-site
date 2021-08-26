@@ -5,7 +5,7 @@ import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 
 const Doctor = ({doctor}) => {
     return (
-        <div class="container d-flex margin">
+        <div class="d-flex margin">
                 <div className="col-md-3">
                     <img src={doctor.img} alt="" className="img-fluid"/>
                     <h3 className="text-center">{doctor.name}</h3>

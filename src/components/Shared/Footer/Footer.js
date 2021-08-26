@@ -7,7 +7,8 @@ import { faFacebook, faGoogle, faTwitter } from '@fortawesome/free-brands-svg-ic
 
 const Footer = () => {
     return (
-        <section className="container d-flex footer">
+        <section id="footer" className="container d-flex footer">
+            
             <div className="col-md-3 text-secondary" id="emergency">
                 <h5>Emergency Dental Care</h5>
                 <h5>Check Up</h5>
@@ -44,9 +45,11 @@ const Footer = () => {
                 <FontAwesomeIcon className="logo" icon={faTwitter}/>
                 <br/>
                 <small>Call Now</small>
-                <button className="btn button">+2025550295</button>
+                <button className="btn button footer-button">+2025550295</button>
             </div>
+            
         </section>
+        
     );
 };
 
